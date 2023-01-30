@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/white.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>GPT-3</section>
+				<section>
+					<section>What is GPT-3?</section>
+					<section>
+						<img src = './assets/open-ai.svg' style="height:96px; width:auto;"><br>
+						A neural network machine learning model<br>
+						Created by OpenAI
+					</section>
+					<section>
+						<ul>
+							<li>Text summarizations</li>
+							<li>Programming code</li>
+							<li>Images</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section>OpenAI API</section>
+					<section><img src = './assets/openAI-api.png' class = 'box-shadow'></section>
+					<section>DALL-E — version of GPT-3 trained to generate images</section>
+					<section><img src = './assets/dalle-2.png' class = 'box-shadow'></section>
+					<section><img src = './assets/dalle-2-1.png' class = "box-shadow"></section>
+					<section><img src = './assets/dalle-2-2.png' class = "box-shadow"></section>
+					<section><img src = './assets/use-cases.png' class = 'box-shadow'></section>
+					<section>
+						<p>Videogame</p>
+						<img src = './assets/AI_Dungeon_Logo.png' class = 'box-shadow'>
+					</section>
+				</section>
+				<section>
+					<section>What about Web Development?</section>
+					<section><img src='./assets/codex-example.png' class="box-shadow"></section>
+					<section>
+						<p>Pygma</p>
+						<img src="./assets/pygma.jpg" class = 'box-shadow'>
+					</section>
+					<section>
+						<p>Code explanation</p>
+						<img src="./assets/explain-code.png" style = "height:590px;width:auto;" class = "box-shadow">
+					</section>
+					<section><img src = './assets/burger-king.jpeg' class = 'box-shadow'></section>
+					<section><img src = './assets/icons.png' style = "height:590px;width:auto;" class = 'box-shadow'></section>
+				</section>
+				<section>Conclusion</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
